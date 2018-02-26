@@ -10,6 +10,7 @@ namespace Robot
     {
         static void Main(string[] args)
         {
+            // Создания тестового класса робот
             IRobot robot = new Robot("#1");
             var invoker = new Invoker(robot);
 
